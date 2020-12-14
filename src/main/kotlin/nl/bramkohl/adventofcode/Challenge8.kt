@@ -61,7 +61,7 @@ data class Instruction(var operation: String, val argument: Int)
 
 class InfiniteLoopException(val accumulator: Int) : IllegalStateException()
 
-fun main(args: Array<String>) {
+fun main() {
     println("Part 1:")
     Challenge8().part1()
 

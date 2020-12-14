@@ -31,7 +31,7 @@ class Challenge6 {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println("Part 1:")
     Challenge6().part1()
 

@@ -2,7 +2,7 @@ package nl.bramkohl.adventofcode
 
 class Challenge2 {
 
-    fun printAmountOfCorrectPasswords() {
+    fun printAmountOfCorrectPasswordsPart1() {
         println("Count: ${parseInput().filter { line -> checkPasswordValidity(line.password, line.policy) }.count()}")
     }
 
@@ -36,6 +36,7 @@ data class PasswordPolicy(val min: Int, val max: Int, val character: Char)
 
 data class InputLine(val password: String, val policy: PasswordPolicy)
 
-fun main(args: Array<String>) {
+fun main() {
+    Challenge2().printAmountOfCorrectPasswordsPart1()
     Challenge2().printAmountOfCorrectPasswordsPart2()
 }

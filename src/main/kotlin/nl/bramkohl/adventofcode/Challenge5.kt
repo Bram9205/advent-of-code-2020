@@ -36,7 +36,7 @@ class Challenge5 {
 data class Seat(val row: Int, val column: Int)
 
 
-fun main(args: Array<String>) {
+fun main() {
     println("Part 1:")
     Challenge5().part1()
 

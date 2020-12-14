@@ -4,7 +4,7 @@ class Challenge3 {
 
     fun printAmountOfTreesOnSlope(slope: Slope) {
         val lines = parseInput()
-        var trees = getNumberOfTreesOnSlope(lines, slope)
+        val trees = getNumberOfTreesOnSlope(lines, slope)
         println("Count: $trees")
     }
 
@@ -39,7 +39,7 @@ class Challenge3 {
 
 data class Slope(val right: Int, val down: Int)
 
-fun main(args: Array<String>) {
-//    Challenge3().printAmountOfTreesOnSlope(Slope(3, 1))
+fun main() {
+    Challenge3().printAmountOfTreesOnSlope(Slope(3, 1))
     Challenge3().part2()
 }

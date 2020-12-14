@@ -92,7 +92,7 @@ data class Passport(
 )
 
 
-fun main(args: Array<String>) {
+fun main() {
     println("Part 1:")
     Challenge4().part1()
 

@@ -58,7 +58,7 @@ class Challenge7 {
 
 data class BagAmount(val amount: Int, val name: String)
 
-fun main(args: Array<String>) {
+fun main() {
     println("Part 1:")
     Challenge7().part1()
 

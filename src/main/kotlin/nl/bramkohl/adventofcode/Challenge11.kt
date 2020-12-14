@@ -125,7 +125,7 @@ fun List<List<Char>>.print() {
     println("-----------------------------------")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println("Part 1:")
     Challenge11().part1()
 
